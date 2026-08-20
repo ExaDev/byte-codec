@@ -2,6 +2,8 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/ExaDev/byte-codec) [![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)](https://www.npmjs.com/package/byte-codec) [![Release](https://img.shields.io/github/v/release/ExaDev/byte-codec)](https://github.com/ExaDev/byte-codec/releases/latest) [![CI](https://img.shields.io/github/actions/workflow/status/ExaDev/byte-codec/ci.yml?branch=main)](https://github.com/ExaDev/byte-codec/actions)
 
+> **This repository has moved.** `byte-codec` now lives at [`packages/byte-codec`](https://github.com/ExaDev/documents.js/tree/main/packages/byte-codec) in the [`ExaDev/documents.js`](https://github.com/ExaDev/documents.js) monorepo. This repository is archived and will receive no further commits, releases, issues, or pull requests — file issues and send pull requests against the monorepo instead. The npm package itself is unaffected: `byte-codec` keeps publishing from its new home under the same name.
+
 > Generic byte-level primitives (ByteWriter, ByteReader, CRC-32, deflate/inflate) and PNG/JPEG image encoding/decoding with zero PDF knowledge — the shared utility package for the [documents.js family](../README.md).
 
 Extracted from [pdf-codec](https://github.com/ExaDev/pdf-codec), where these utilities lived as a directory-isolated subgraph under `src/bytes/` + `src/image/` with no PDF imports. Both pdf-codec and documents.js consume them from this neutral home rather than one fetching byte utilities from a backend.
